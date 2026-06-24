@@ -1,0 +1,17 @@
+/* Base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Custom file input styling */
+input[type="file"] {
+  font-size: 0.875rem;
+  color: #4b5563;
+}
+
+/* Smooth transitions on buttons */
+button {
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
